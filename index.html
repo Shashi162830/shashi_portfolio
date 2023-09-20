@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO WEBIST</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Crimson+Text&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/50a7948e98.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <!-- <video autoplay loop muted plays-inline class="video_background">
+          <source src="images/video_bag.mp4" type="video/mp4" />
+        </video> -->
+        <nav>
+          <h1 class="logo">
+            <i> <span>S</span>hashi </i>
+          </h1>
+          <ul id="sidemenue">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Servces</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closeMenue()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openMenue()"></i>
+        </nav>
+        <!-- <div class="row">
+          <div class="header_left"> -->
+        <div class="header_text">
+          <p>Web Developer</p>
+          <h1>HI , I'm <span>Shashi</span><br />Kumar From Jharkhand</h1>
+        </div>
+        <!-- </div> -->
+        <!-- <div class="header_right">
+            <div class="header_text">
+              <p>Web Developer</p>
+              <h1>HI , I'm <span>Shashi</span><br />Kumar From Jharkhand</h1>
+            </div>
+          </div> -->
+        <!-- </div> -->
+      </div>
+    </div>
+    <!-- .................about......... -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about_col_1">
+            <img src="images/shashi_img5.jpg" alt="" />
+            <a
+              href="https://drive.google.com/file/d/1H7LCdd70aIbdJptNcwHBSMLPkOYDeCSF/view?usp=sharing"
+              class="view_cv_btn"
+              >View CV</a
+            >
+          </div>
+          <div class="about_col_2">
+            <h1 class="sub_tittle">About Me</h1>
+            <p class="about_text">
+              I'm an independent creative developer from Jharkhand, India. I
+              build websites with a focus on responsive design and
+              accessibility. <br /><br />
+              As a software developer with a passion for creating efficient and
+              user-friendly applications. I have done Master degree in, Computer
+              Application (MCA) and having 40 months of hands-on experience,
+              with a strong foundation in various programming languages and
+              technologies. <br /><br />
+              I'm looking for an opportunity which demands the best of my
+              professional ability in terms of technical and analytical skills
+              and helps me in broadening and enhancing my current skills and
+              knowledge. I am very much dedicated in learning new concepts and
+              using the same in solving problems
+            </p>
+            <div class="tab_tittle">
+              <p class="tab_links active_link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab_links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab_links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab_contents active_tab" id="skills">
+              <ul>
+                <li>
+                  <span>Frontend Technologies</span><br />
+                  React Js &nbsp;&#124;&nbsp; Next Js &nbsp;&#124;&nbsp;
+                  React-Query &nbsp;&#124;&nbsp; Reducer &nbsp;&#124;&nbsp;
+                  Redux &nbsp;&#124;&nbsp; Microfrontend &nbsp;&#124;&nbsp;
+                  Javascript &nbsp;&#124;&nbsp; HTML5 &nbsp;&#124;&nbsp; CSS3
+                  &nbsp;&#124;&nbsp; Bootstrap &nbsp;&#124;&nbsp; Tailwind
+                </li>
+                <li>
+                  <span>Developer Tools</span><br />
+                  Git &nbsp;&#124;&nbsp; Postman &nbsp;&#124;&nbsp; VS Code
+                  &nbsp;&#124;&nbsp; Bitbucket &nbsp;&#124;&nbsp; JIRA
+                </li>
+                <li>
+                  <span>Certificate</span><br />Web Developement Bootcamp Udemy
+                  &nbsp;
+                  <a href="#"
+                    ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="tab_contents" id="experience">
+              <ul>
+                <li>
+                  <span
+                    >April 2020 - March 2021 &nbsp;&#124;&nbsp; Noida, Uttar
+                    Pradesh, India</span
+                  ><br />
+                  Intern As a Web Developer At XploreSense Pvt. Ltd.
+                </li>
+                <li>
+                  <span
+                    >April 2021 - Current &nbsp;&#124;&nbsp; Noida, Uttar
+                    Pradesh, India </span
+                  ><br />
+                  Working As a Web Developer At XploreSense Pvt. Ltd. &nbsp;
+                  <a
+                    href="https://drive.google.com/file/d/1H9LiYaK7YmcdKjVPOggchJWsvwwJWT0o/view?usp=sharing"
+                    ><i class="fa-solid fa-arrow-up-right-from-square"></i
+                  ></a>
+                  <br />
+                  <span>Achievements/Tasks</span> <br />
+                  <p class="achievements_box">
+                    <i>Real-Time Threaded Query Application</i> : I've developed
+                    a real-time application that allows users to engage in
+                    threaded queries. In this project, I leveraged React.js with
+                    Redux and Reducers for state management, ensuring real-time
+                    updates and smooth user interactions. Additionally, I used
+                    React Query for optimizing data retrieval and updates <br />
+                    <br />
+                    <i>UI & API Integration For School Management system </i> :
+                    I've successfully built a Community, Assessment, PreRead,
+                    Activity, Homework Management Webpage for School management
+                    system App using React Js with Redux and Reducers for state
+                    management, ensuring real-time updates and smooth user
+                    interactions. showcasing my ability to work with real-time
+                    communication. I employed React Query for efficient data
+                    fetching and management on the front-end, ensuring a
+                    seamless user experience.<br />
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="tab_contents" id="education">
+              <ul>
+                <li>
+                  <span>2021 - 2023 (Passed With First Division)</span><br />MCA
+                  ( Master of Computer Application) <br />Vinoba Bhave
+                  University, Hazaribag
+                </li>
+                <li>
+                  <span>2018 - 2021 (Passed With First Division)</span><br />
+                  BCA (Bachelor of Computer Applications) <br />
+                  Vinoba Bhave University, Hazaribag
+                </li>
+                <li>
+                  <span>2016 - 2018 (Passed With First Division)</span><br />
+                  I.Sc (Intermediate of Science) <br />
+                  Inter Science College, Hazaribag
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- .................Services......... -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub_tittle">My Services</h1>
+        <div class="services_list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              cepturi modi cupiditate.
+            </p>
+
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              cepturi modi cupiditate.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+              cepturi modi cupiditate.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- .................portfolio......... -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub_tittle">My Work</h1>
+        <div class="work_list">
+          <div class="work">
+            <img src="images/actors1.jpg" alt="" />
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>
+                about app Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. repellat.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/actors2.jpg" alt="" />
+            <div class="layer">
+              <h3>Media App</h3>
+              <p>
+                about app Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. repellat.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/actors.jpg" alt="" />
+            <div class="layer">
+              <h3>Online Shopping App</h3>
+              <p>
+                about app Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. repellat.
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+    <!-- .................contact......... -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact_left">
+            <h1 class="sub_tittle">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>shashikr2057@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone-flip"></i>7654162830</p>
+            <div class="social_icon">
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+              <a
+                href="https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit"
+                target="blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/"
+                ><i class="fa-brands fa-square-instagram"></i
+              ></a>
+            </div>
+            <a href="/images/resume.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact_right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Name" />
+              <input type="email" name="Email" placeholder="Your Email" />
+              <textarea
+                name="Message"
+                row="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="copy_right">
+        <p>CopyRight @ Shashi</p>
+      </div> -->
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab_links");
+      var tabcontents = document.getElementsByClassName("tab_contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active_link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active_tab");
+        }
+        event.currentTarget.classList.add("active_link");
+        document.getElementById(tabname).classList.add("active_tab");
+      }
+    </script>
+    <script>
+      var sidebar = document.getElementById("sidemenue");
+      function openMenue() {
+        sidebar.style.right = "0";
+      }
+      function closeMenue() {
+        sidebar.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzB6nSNgkVkY4keCSrr5cyXTd-rGD6y3WmPeAIoma27oAK1wFgqCPBmnGW-bAysLdBv4g/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const message = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            message.innerHTML = "Message set Successfully";
+            setTimeout(function () {
+              message.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
